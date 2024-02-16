@@ -7,6 +7,7 @@ PutHTML:
 	cp gallery.html /var/www/html/hw8_website_resume/
 	cp index.html /var/www/html/hw8_website_resume/
 	cp main.css /var/www/html/hw8_website_resume/
+	cp -r images /var/www/html/hw8_website_resume/
 
 	echo "Current contents of your HTML directory: "
 	ls -l /var/www/html/hw8_website_resume/
